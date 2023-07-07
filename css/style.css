@@ -81,15 +81,15 @@ li:hover {
     display: grid;
 }
 
-#seccionServicios {
+/* #seccionServicios {
     display: grid;
-    gap: 15px;  /* separa espacio entre celdas del grid */
+    gap: 15px;
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     background-color: grey;
     grid-template-columns: 1fr 1fr;
-}
+} */
 
 #seccionServicios .imagen img {
     width: 100%;
