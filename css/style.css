@@ -77,6 +77,12 @@ li:hover {
     background-color: rgb(218, 50, 28);
 }
 
+@media (max-width: 520px) {
+    .img-bootstrap {
+      width: 100%;
+    }
+}
+
 #seccionPrincipal {
     display: grid;
 }
