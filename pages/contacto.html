@@ -57,13 +57,59 @@
         <h2>Pongase en contacto</h2>
             <p>Si necesita asistencia tecnica no dude en contactarnos, estamos para ello.</p>
 
-        <label for="email">Email:</label>
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Dirección</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Estado</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Elija una opcion...</option>
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                    <option>Uruguay</option>
+                    <option>Ecuador</option>
+                    <option>Brasil</option>
+                   </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Codigo postal</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Acepto las condiciones
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 text-center mb-3">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+        <!-- <label for="email">Email:</label>
         <input class="campo" type="email" id="email"
             pattern=".+@globex\.com" size="30" required placeholder="Ingrese su correo">
 
         <label for="name">Nombre completo:</label>
         <input class="campo" type="text" id="name" name="name" required
-                minlength="4" maxlength="20" size="25" placeholder="Ingrese su Nombre y Apellido">
+                minlength="4" maxlength="20" size="25" placeholder="Ingrese su Nombre y Apellido"> -->
     </div>
 
 
