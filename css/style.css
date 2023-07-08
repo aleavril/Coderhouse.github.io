@@ -129,9 +129,9 @@ li:hover {
     grid-template-columns: 1fr 1fr;
 }
 
-#seccionClientes {
+/* #seccionClientes {
     display: grid;
-}
+} */
 
 .tituloPrincipal {
     margin: 40px auto;
